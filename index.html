@@ -15,26 +15,27 @@
     
     <header>
         <div class= "contenedor">
-            <nav >
+            <nav class="menu">
                 <a href="#" id="btn-acerca-de">Acerca de</a>
                 <a href="#" id="btn-menu">Menu</a>
                 <a href="#" id="btn-galeria">Galeria</a>
                 <a href="#" id="btn-ubicacion">Ubicacion</a>
+
             </nav>
-            <div class="derecho">
-                <h1>Cafe <span>San Francisco</span></h1>
+            <div class="texto">
+                <h1 class="nombre">Cafe <span>San Francisco</span></h1>
                 <h3>Un refugio del tiempo, donde el corazon se abriga entre cafe y recuerdos.</h3>
             </div>
 
         </div>
     </header>
     <!--Seccion main-->
-    <section>
+    <section class="main">
         <!--Seccion Acerca de-->
-        <section>
-            <div>
-                <div>
-                    <img src="imagenes/acerca de.jpg" alt="Acerca de">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="imagenes/acerca-de.jpg" alt="Acerca de">
                 </div>
                 <article>
                     <h3>Acerca de</h3>
@@ -65,12 +66,12 @@
         </section>
         <!--./fin acerca de-->
         <!-- Inicio del menu-->
-        <section>
-            <div>
+        <section class="menu-comida" id="menu">
+            <div class="contenedor">
                 <h3 id="platillos">Menu</h3>
-                <div>
+                <div class="seccion-menu">
                     <div>
-                        <article>
+                        <article class="comida">
                             <p>De comer</p>
                             <div>
                                 <p>Arroz con camaron</p>
@@ -103,7 +104,7 @@
                         </article>
                         
                         <!--./ Fin de la seccion comer-->
-                        <article>
+                        <article class="bebidas">
                             <p>Bebidas</p>
                             <div>
                                 <p>Jugos Naturales</p>
@@ -140,45 +141,45 @@
         </section>
         <!--./Fin Menu-->
         <!--Inicio Galeria-->
-        <section>
-            <div>
+        <section class="galeria">
+            <div class="contenedor">
                 <img src="imagenes/1.jpg" alt="">
             </div>
-            <div>
+            <div class="galeria-img">
                 <img src="imagenes/2.jpg" alt="">
             </div>
-            <div>
+            <div class="galeria-img">
                 <img src="imagenes/3.jpg" alt="">
             </div>
-            <div>
+            <div class="galeria-img">
                 <img src="imagenes/4.jpg" alt="">
             </div>
-            <div>
+            <div class="galeria-img">
                 <img src="imagenes/5.jpg" alt="">
             </div>
-            <div>
+            <div class="galeria-img">
                 <img src="imagenes/6.jpg" alt="">
             </div>
-            <div>
+            <div class="galeria-img">
                 <img src="imagenes/7.jpg" alt="">
             </div>
-            <div>
+            <div class="galeria-img">
                 <img src="imagenes/8.jpg" alt="">
             </div>
         </section>
 
         <!--Seccion ubicacion-->
         <section id="ubicacion">
-            <div>
+            <div class="contenedor">
                 <h3>Ubicacion</h3>
 
-                <div>
+                <div class="info-contacto">
                     <p>E5D <br />S48-520</p><br>
                     <p>(+593) 0992628980</p>
                     <p> cafe@gmail.com</p>
                 </div>
 
-                <div>
+                <div class="horarios">
                     <h4>Horarios</h4>
                     <p>Lunes a Viernes <br> 7:00 - 21:00</p>
                     <p>Sabados y Domingos <br> 11:00 - 23:00</p>
@@ -187,7 +188,7 @@
         </section>
         <!--./Fin contactos-->
         <!--Inicio Mapa-->
-        <section>
+        <section class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.805081885575!2d-78.49340531974043!3d-0.14759780000000094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59ab33ae952e7%3A0xa160086f3dac5640!2sCaf%C3%A9%20Rojo!5e0!3m2!1ses-419!2sec!4v1744039485309!5m2!1ses-419!2sec"
             width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
